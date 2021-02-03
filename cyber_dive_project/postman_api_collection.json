@@ -1,0 +1,269 @@
+{
+	"id": "16839746-78c7-b125-c83d-13e263dd27bd",
+	"name": "Cyberdive",
+	"description": "",
+	"order": [
+		"45a90a20-b61e-02bf-e120-1e53d588feaa",
+		"bd0f3ccb-2cb2-6ab6-52ff-d1d37031daa4",
+		"cba15e85-64ba-e4e2-c9c3-e408aa166d0b",
+		"3b1d854b-1794-1ece-1b75-cbbf7adcbb44",
+		"b1175e89-1bf4-4e32-cdd3-12183a344234",
+		"97abe335-9d24-a6af-8256-8d087da6c7b2",
+		"f53c1aab-86a1-cda8-9180-816b900e05b5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1612319910370,
+	"owner": "14428794",
+	"public": false,
+	"requests": [
+		{
+			"id": "3b1d854b-1794-1ece-1b75-cbbf7adcbb44",
+			"headers": "Authorization: token 8697aa9432780b616002b1111249b85bb928928f\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "token 8697aa9432780b616002b1111249b85bb928928f",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/auth/users/set_password/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "16839746-78c7-b125-c83d-13e263dd27bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Change Password",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612322051904,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"new_password\": \"pleasework\",\n    \"current_password\": \"Somepassword\"\n}"
+		},
+		{
+			"id": "45a90a20-b61e-02bf-e120-1e53d588feaa",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: token 36f89754dd9a36c61b220994c5425523fa277898\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "token 36f89754dd9a36c61b220994c5425523fa277898",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/auth/authentication_status/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "16839746-78c7-b125-c83d-13e263dd27bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Auth Status",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612321014559,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"auth_token\": \"36f89754dd9a36c61b220994c5425523fa277898\"\r\n}"
+		},
+		{
+			"id": "97abe335-9d24-a6af-8256-8d087da6c7b2",
+			"headers": "Authorization: token 6fa757a280b49d695f9a07a92d5a62e111b3c309\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "token 6fa757a280b49d695f9a07a92d5a62e111b3c309",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/auth/set_email/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "16839746-78c7-b125-c83d-13e263dd27bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Change user email",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612327721876,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"new_email\": \"testing@cyberdive.com\",\n\t\"re_new_email\": \"testing@cyberdive.com\",\n\t\"current_password\": \"hellomate1\"\n}"
+		},
+		{
+			"id": "b1175e89-1bf4-4e32-cdd3-12183a344234",
+			"headers": "Authorization: token 8697aa9432780b616002b1111249b85bb928928f\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "token 8697aa9432780b616002b1111249b85bb928928f",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/auth/users/set_username/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "16839746-78c7-b125-c83d-13e263dd27bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Change username",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612322830159,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"new_username\": \"test777\",\n\t\"re_new_username\": \"test777\",\n\t\"current_password\": \"pleasework\"\n}"
+		},
+		{
+			"id": "bd0f3ccb-2cb2-6ab6-52ff-d1d37031daa4",
+			"headers": "Authorization: token 36f89754dd9a36c61b220994c5425523fa277898\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "token 36f89754dd9a36c61b220994c5425523fa277898",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/auth/token/logout/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "16839746-78c7-b125-c83d-13e263dd27bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Logout",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612321025109,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "cba15e85-64ba-e4e2-c9c3-e408aa166d0b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/auth/token/login/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "16839746-78c7-b125-c83d-13e263dd27bd",
+			"data": [
+				{
+					"key": "username",
+					"value": "test7",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "Somepassword",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612321049678,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f53c1aab-86a1-cda8-9180-816b900e05b5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/auth/users/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "16839746-78c7-b125-c83d-13e263dd27bd",
+			"data": [],
+			"dataMode": "raw",
+			"name": "User registration",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612328169178,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\": \"hey@hey.com\",\n\t\"username\": \"hello\",\n\t\"password\": \"holahola1!\"\n}"
+		}
+	]
+}
