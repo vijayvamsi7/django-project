@@ -20,9 +20,9 @@ Postman endpoint collection in file:
 postman_api_collection.json
 
 APIs:
-Register: http://localhost:8000/auth/users/ POST
-Login: http://127.0.0.1:8000/auth/token/login/ POST
-Logout: http://127.0.0.1:8000/auth/token/logout/ POST
+Register: http://localhost:8000/auth/users/ POST \
+Login: http://127.0.0.1:8000/auth/token/login/ POST \
+Logout: http://127.0.0.1:8000/auth/token/logout/ POST \
 Auth Status: http://127.0.0.1:8000/auth/authentication_status/ GET
 Change Password: http://localhost:8000/auth/users/set_password/ POST
 Change Username: http://localhost:8000/auth/users/set_username/ POST
